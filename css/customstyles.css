@@ -2,6 +2,13 @@ body {
     font-size:15px;
 }
 
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 15%;
+    margin-left: auto;
+}
+ 
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -381,6 +388,7 @@ background-color: #347DBE;
 
 ul#mysidebar {
     border-radius:0px;
+	width: 15%;
 }
 
 .nav ul li ul li a {
@@ -849,26 +857,6 @@ span.soft {
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
-    }
-}
-
-@media (max-width: 990px) {
-    #mysidebar {
-        position: relative;
-    }
-}
-
-@media (min-width: 1000px) {
-
-    ul#mysidebar {
-        width: 225px;
-    }
-}
-
-@media (max-width: 900px) {
-
-    ul#mysidebar {
-        max-width: 100%;
     }
 }
 

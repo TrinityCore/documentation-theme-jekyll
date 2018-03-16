@@ -8,6 +8,13 @@
 h3 {color: #ED1951; }
 h4 {color: #808080; }
 
+#mysidebar {
+    transition: all 0.3s;
+    position: fixed;
+    Height: 100%;
+    overflow-y: auto;
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #248ec2;
     color: white;
